@@ -9,4 +9,5 @@ class Petugas extends Model
 {
     use HasFactory;
     protected $table = 'petugas';
+    protected $guarded = ['id_petugas'];
 }

@@ -10,5 +10,5 @@ class History_lelang extends Model
     use HasFactory;
 
     protected $table = 'history_lelang';
-    protected $guarded = ['id_barang'];
+    protected $guarded = ['id_history'];
 }

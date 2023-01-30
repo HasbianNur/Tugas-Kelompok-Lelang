@@ -9,4 +9,5 @@ class Lelang extends Model
 {
     use HasFactory;
     protected $table = 'lelang';
+    protected $guarded = ['id_lelang'];
 }

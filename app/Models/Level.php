@@ -9,4 +9,6 @@ class Level extends Model
 {
     use HasFactory;
     protected $table = 'level';
+    protected $guarded = ['id_level'];
+
 }
